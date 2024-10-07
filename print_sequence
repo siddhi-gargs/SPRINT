@@ -1,0 +1,39 @@
+3 jump
+seq_loc:list 
+seq_length:4
+cycle_loc:78 
+cycle_length:10
+
+jump:3 start
+required_length:0 
+count:0
+one:1 
+zero:0
+
+start:7 cycle_length required_length
+      7 seq_loc loc_seq
+      7 cycle_loc loc_cycle
+ 
+copy_content:7 loc_seq:0 loc_cycle:0
+                
+
+2 required_length one required_length 
+4 required_length zero halt 
+1 count one count
+4 count seq_length move
+
+1 loc_seq one loc_seq
+1 loc_cycle one loc_cycle
+
+3 copy_content
+move:2 loc_seq seq_length loc_seq
+1 loc_seq one loc_seq
+1 loc_cycle one loc_cycle
+7 zero count
+
+
+3 copy_content
+halt:9
+
+
+list:1 2 4 7

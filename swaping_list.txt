@@ -1,0 +1,26 @@
+3 start
+firstelement:n1 length:4 
+temp:0 one:1
+leftadress:0
+rightadress:0
+start:7 firstelement leftadress
+
+1 leftadress length rightadress
+2 rightadress one rightadress
+
+compare:5 rightadress leftadress stop
+7 leftadress left1
+7  leftadress left2
+7 rightadress right
+7 rightadress right2
+
+7 left1:0 temp
+7 right:0 left2:0
+7 temp right2:0
+ 
+1 leftadress one leftadress
+2 rightadress one rightadress
+3 compare
+stop:9
+
+n1:45 74 65 90

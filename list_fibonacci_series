@@ -1,0 +1,30 @@
+3 jump
+first_ele_loc:100
+number:10
+
+jump:3 start
+       times:0
+       count:0
+       one:1 
+       zero:0
+       two:2
+       first_num:0
+       last_num:1
+       current_num:0
+start:7 number times
+      2 times two times
+      7 first_ele_loc starting_add
+      7 first_num starting_add:0
+      1 starting_add one second_add
+      7 last_num second_add:0 
+      1 second_add one looping
+      go_back:1 last_num first_num 
+      current_num
+      7 last_num first_num
+      7 current_num last_num
+      7 current_num looping:0 
+      1 looping one looping
+      1 count one count
+      4 count times halt
+      3 go_back
+      halt:9  

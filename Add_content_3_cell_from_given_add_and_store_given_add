@@ -1,0 +1,13 @@
+3 start
+addres1:n1 one:1 result:100
+start:7 addres1 a
+7 result res1
+ 7 result res2
+7 result res3
+1 a one b
+1 b one c
+
+1 a:0 b:0 res1:0
+1 c:0 res2:0 res3:0
+9
+n1:45 89 56 

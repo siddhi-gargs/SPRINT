@@ -1,0 +1,16 @@
+3 5  17 0 3 jump
+1 0 0 1 0
+jump:4  3 9 yes 
+add:1 11 7 11
+ 1 8 10 8
+4 8 7 Zero
+3 add
+Zero:4 11 9 exact 
+5 3 11  loop 
+7 9 11 
+7 9 8
+ 1 7 10 7
+3 add
+loop:2 8 10 4 9
+exact:7 8 4 9
+ yes:7 9 4 9

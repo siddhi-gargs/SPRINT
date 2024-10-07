@@ -1,0 +1,17 @@
+3 j_ins
+elements:n1 length:8 
+target:48
+result:0
+j_ins:3 actu
+count:0  zero:0 one:1
+actu:4 started:n1 target one_s
+1 started one started
+1 count one count
+4 9 length stop
+3 actu 
+stop:9
+one_s:7 one 6 3 stop
+n1:23 n2:48
+n3:45 n4:56
+n5:90 n6:8
+n7:23 n8:34
